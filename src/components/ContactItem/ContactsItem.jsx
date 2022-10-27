@@ -7,7 +7,7 @@ export const ContactsItem = ({ name, number, onDelete, id }) => {
       <span>
         {name} {number}
       </span>
-      <Button type="button" text="Delete" onDelete={() => onDelete(id)} />
+      <Button type="button" text="Delete" onDelete={onDelete} />
     </li>
   );
 };

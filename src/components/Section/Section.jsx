@@ -1,4 +1,3 @@
-// import { SectionElement } from './Section.styled';
 import PropTypes from 'prop-types';
 
 export const Section = ({ children, title }) => {
